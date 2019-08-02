@@ -5,7 +5,7 @@ var exec = require('cordova/exec');
 //     exec(success, error, "AndroidSmsRetriever", "onSmsReceived", [ notifyWhenStarted ]);
 // };
 
-exports.getCurrentSSID = function(success, error) {
-    exec(success, error, "WifiWizard", "getConnectedSSID", []);
+exports.getAppHash = function(success, error) {
+    exec(success, error, "WifiWizard", "getAppHash", []);
 };
 

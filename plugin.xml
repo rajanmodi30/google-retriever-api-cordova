@@ -17,6 +17,8 @@
     </js-module>
 
     <platform name="android">
+		 <preference name="PLAY_SERVICES_VERSION" default="11.0.1"/>
+        <framework src="com.google.android.gms:play-services-auth-api-phone:$PLAY_SERVICES_VERSION" />
 
 		<config-file target="AndroidManifest.xml" parent="/manifest">
 			<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
