@@ -1,6 +1,6 @@
 {
   "name": "androidsmsretriever",
-  "version": "0.2.11",
+  "version": "1.0.0",
   "description": "This plugin allows Phonegap applications to manage Wifi connections.",
   "cordova": {
     "id": "com.arcpine.androidsmsretriever",
@@ -15,11 +15,8 @@
   },
   "keywords": [
     "phonegap",
-    "network",
-    "wifi",
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "google-sms-retreiver-api",
+    "cordova-android"
   ],
   "author": "Rajan Modi",
   "license": "Apache 2.0",
