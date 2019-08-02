@@ -47,7 +47,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class WifiWizard extends CordovaPlugin {
+public class AndroidSmsRetriever extends CordovaPlugin {
 
     private static final String getAppHash = "getAppHash";
 
